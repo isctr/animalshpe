@@ -23626,5 +23626,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.loadBanner,
 	cr.plugins_.CordovaAdmobFree.prototype.acts.loadInterstitial,
+	cr.plugins_.CordovaAdmobFree.prototype.acts.removeBanner,
 	cr.plugins_.Sprite.prototype.cnds.PickByUID
 ];};
