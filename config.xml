@@ -26,7 +26,6 @@
 	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
-	<plugin name="cordova-plugin-wkwebview-engine" />
 	<variable name="ADMOB_APP_ID" value="a-app-pub-3940256099942544~3347511713" />
 	</plugin>
 
