@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.aocetinns.hayvansekil" version="1.0" android-versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Hayvan Şekilleri</name>
-	<description>Hayvan şekilleri tamamla</description>
+<widget id="com.aocetinns.hayvansekil" version="1.1" android-versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Hayvan Şekilleri Eşleştir</name>
+	<description>Hayvan şekilleri eşleştir hayvanları tanı</description>
 	<author href="http://www.oyuntrak.com" email="genckafem@gmail.com">genckafem</author>
 
 	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
@@ -9,15 +9,13 @@
 
 	<preference name="android-targetSdkVersion" value="28" />
 
-	<preference name="orientation" value="default" />
+	<preference name="orientation" value="landscape" />
 	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
 	<preference name="phonegap-version" value="cli-8.0.0" />
 
-	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
-	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
-
+	
 
 	<preference name="deployment-target" value="10.0" />
 	<preference name="android-minSdkVersion" value="21" />
@@ -29,6 +27,8 @@
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-wkwebview-engine" />
+	<variable name="ADMOB_APP_ID" value="a-app-pub-3940256099942544~3347511713" />
+	</plugin>
 
 
 	<engine name="android" />
